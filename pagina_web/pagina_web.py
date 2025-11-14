@@ -344,7 +344,7 @@ def index() -> rx.Component:
                     color="#00BFFF",
                     font_weight="bold",
                     font_size=rx.breakpoints(
-                        initial="42px", sm="62px", md="80px", lg="90px", xl="100px"),
+                        initial="42px", sm="46px", md="80px", lg="90px", xl="100px"),
                     letter_spacing="1px",
                     text_align=rx.breakpoints(
                         initial="center", sm="center", md="left"),
@@ -392,5 +392,16 @@ def pagina_principal() -> rx.Component:
     )
 
 
-app = rx.App(stylesheets=["/custom.css"])
+app = rx.App(
+    stylesheets=["/custom.css"],
+    theme=rx.theme(
+        breakpoints={
+            "sm": "25em",  # 400px
+            "md": "48em",  # 768px
+            "lg": "62em",  # 992px
+            "xl": "80em",  # 1280px
+        }
+    )
+)
+
 app.add_page(pagina_principal, route="/")
