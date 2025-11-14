@@ -302,7 +302,7 @@ def menu() -> rx.Component:
             ),
             rx.link(
                 rx.heading("Sobre mí", size=rx.breakpoints(
-                    initial="5", sm="6", md="6", lg="7", xl="8")),
+                    initial="5", sm="5", md="6", lg="7", xl="8")),
                 href="#sobre-mi",
                 text_decoration="none",
                 color="white",
@@ -310,13 +310,13 @@ def menu() -> rx.Component:
             ),
             rx.link(
                 rx.heading("Lenguajes", size=rx.breakpoints(
-                    initial="5", sm="6", md="6", lg="7", xl="8")),
+                    initial="5", sm="5", md="6", lg="7", xl="8")),
                 href="#lenguajes",
                 text_decoration="none",
                 color="white",
                 _hover={"color": "#00BFFF"},
             ),
-            spacing=rx.breakpoints(initial="5", sm="6",
+            spacing=rx.breakpoints(initial="5", sm="5",
                                    md="6", lg="7", xl="8"),
             justify=rx.breakpoints(initial="start", sm="start", md="start"),
             flex_wrap="wrap",
