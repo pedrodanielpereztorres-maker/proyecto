@@ -344,7 +344,7 @@ def index() -> rx.Component:
                     color="#00BFFF",
                     font_weight="bold",
                     font_size=rx.breakpoints(
-                        initial="42px", sm="47px", md="80px", lg="90px", xl="100px"),
+                        initial="42px", sm="50px", md="80px", lg="90px", xl="100px"),
                     letter_spacing="1px",
                     text_align=rx.breakpoints(
                         initial="left", sm="left", md="left"),
