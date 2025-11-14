@@ -200,7 +200,7 @@ def descripcion() -> rx.Component:
         rx.box(
             rx.heading("Sobre Mí:", color="white", size="7"),
             texto_descripcion(
-                "Soy Pedro Pérez, analista de sistemas y apasionado por la innovación tecnológica."),
+                "Soy Pedro Pérez, Programador , Analista de Sistemas y apasionado por la innovación tecnológica."),
             texto_descripcion(
                 "Mi experiencia abarca desde el desarrollo modular en C++ y Python hasta la gestión de bases de datos SQL y NoSQL, siempre con el objetivo de crear soluciones sólidas, prácticas y con visión de futuro."),
             texto_descripcion(
