@@ -347,7 +347,7 @@ def index() -> rx.Component:
                         initial="42px", sm="62px", md="80px", lg="90px", xl="100px"),
                     letter_spacing="1px",
                     text_align=rx.breakpoints(
-                        initial="left", sm="left", md="left"),
+                        initial="center", sm="center", md="left"),
                     margin_bottom=rx.breakpoints(lg="20px", xl="30px"),
                 ),
                 rx.heading(
